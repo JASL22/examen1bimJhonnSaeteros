@@ -40,7 +40,8 @@ Crear un **Web Service** desde el repositorio, con **Python 3** y plan **Free**.
 | Variable de entorno | `PYTHON_VERSION=3.13.14` |
 
 La misma configuración está en `render.yaml`. Incluir `nfcorpus/` en el repositorio.
-Al publicar, completar `SERVICE_URL` en el notebook y ejecutar la verificación pública.
+Después de publicar, completar la URL base en la sección 12 del notebook y comprobar
+`GET /health` y `POST /search` en el servicio publicado antes de entregar.
 El plan gratuito puede requerir una espera de arranque después de un período sin actividad.
 
 ## Datos
